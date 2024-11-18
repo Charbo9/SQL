@@ -1,0 +1,8 @@
+CREATE TABLE Books (
+    BookID INT PRIMARY KEY,
+    Title VARCHAR(50),
+    Author VARCHAR(50),
+    YearPublished INT,
+);
+INSERT INTO Books (BookID, Title, Author, YearPublished)
+VALUES (1, 'East of Eden', 'John Steinbeck', 1975);
